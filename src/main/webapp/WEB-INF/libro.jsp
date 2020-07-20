@@ -43,18 +43,11 @@
 					<!-- ============================================================== -->
 					<div class="navbar-brand">
 						<!-- Logo icon -->
-						<a href="libro"> <b class="logo-icon"> <!-- Dark Logo icon -->
+						<a href="/"> <b class="logo-icon"> <!-- Dark Logo icon -->
 								<img src="../assets/images/logo-icon.png" alt="homepage"
 								class="dark-logo" /> <!-- Light Logo icon --> <img
 								src="../assets/images/logo-icon.png" alt="homepage"
-								class="light-logo" />
-						</b> <!--End Logo icon --> <!-- Logo text --> <span class="logo-text">
-								<!-- dark Logo text --> <img
-								src="../assets/images/logo-text.png" alt="homepage"
-								class="dark-logo" /> <!-- Light Logo text --> <img
-								src="../assets/images/logo-light-text.png" class="light-logo"
-								alt="homepage" />
-						</span>
+								class="light-logo" /></b>
 						</a>
 					</div>
 					<!-- ============================================================== -->
@@ -138,12 +131,16 @@
 				<nav class="sidebar-nav">
 					<ul id="sidebarnav">
 						<li class="list-divider"></li>
+
+						<li class="nav-small-cap"><span class="hide-menu"></span></li>
+						<li class="nav-small-cap"><span class="hide-menu"></span></li>
+						<li class="nav-small-cap"><span class="hide-menu"></span></li>
+
 						<li class="nav-small-cap"><span class="hide-menu">Aplicaciones</span></li>
 
 						<li class="sidebar-item"><a class="sidebar-link" href="#"
 							aria-expanded="false"><i data-feather="user"
-								class="feather-icon"></i><span class="hide-menu">Usuarios
-							</span></a></li>
+								class="feather-icon"></i><span class="hide-menu">Libros </span></a></li>
 
 						<li class="list-divider"></li>
 
@@ -167,14 +164,17 @@
 				<div class="row">
 					<div class="col-7 align-self-center">
 						<h4
-							class="page-title text-truncate text-dark font-weight-medium mb-1">Usuarios</h4>
+							class="page-title text-truncate text-dark font-weight-medium mb-1">Mis
+							Libros</h4>
 						<div class="d-flex align-items-center">
 							<nav aria-label="breadcrumb">
 								<ol class="breadcrumb m-0 p-0">
-									<li class="breadcrumb-item"><a href="registrar"
-										class="text-muted">Mantenedor</a></li>
-									<li class="breadcrumb-item text-muted active"
-										aria-current="page">Usuario</li>
+									<li class="breadcrumb-item"><a href="/" class="text-muted">Inicio</a></li>
+									<li class="breadcrumb-item"><a href="/libro/registrar"
+										class="text-muted">Mis Libros</a></li>
+									<li class="breadcrumb-item"><a href="/libro/registrar"
+										class="text-muted">Registrar</a></li>
+
 								</ol>
 							</nav>
 						</div>

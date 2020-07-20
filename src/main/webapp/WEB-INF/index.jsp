@@ -27,15 +27,15 @@
 						<div class="text-center">
 							<img src="../assets/images/big/icon.png" alt="wrapkit">
 						</div>
-						<h2 class="mt-3 text-center">Ingreso al sistema</h2>
+						<h2 class="mt-3 text-center">Revisa nuestro catalogo</h2>
 
 						<div class="row"></div>
 						<form action='<c:url value="/dologin" />' method="post"
 							modelAttribute="libro" class="mt-4">
-
-							<div class="col-lg-12 text-center">
-								<button type="submit" class="btn btn-block btn-dark">Ingresar
-									🙏🏼</button>
+							<div class="row">
+								<div class="col-lg-12 text-center">
+									<button type="submit" class="btn btn-block btn-dark">MIS LIBROS</button>
+								</div>
 							</div>
 						</form>
 					</div>
