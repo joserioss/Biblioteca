@@ -4226,3 +4226,1021 @@ javax.servlet.jsp.JspTagException: Don't know how to iterate over supplied "item
 2020-07-19 21:13:14.223  INFO 2096 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=4, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
 2020-07-19 21:15:25.921  INFO 2096 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
 2020-07-19 21:15:26.183  INFO 2096 --- [RMI TCP Connection(5)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:33:01.457  INFO 4412 --- [restartedMain] cl.jrios.BibliotecaApplication           : Starting BibliotecaApplication using Java 1.8.0_251 on NI5B23 with PID 4412 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca)
+2020-07-19 21:33:01.460  INFO 4412 --- [restartedMain] cl.jrios.BibliotecaApplication           : No active profile set, falling back to default profiles: default
+2020-07-19 21:33:01.510  INFO 4412 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-19 21:33:01.511  INFO 4412 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-19 21:33:02.735  INFO 4412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-19 21:33:02.745  INFO 4412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-19 21:33:02.745  INFO 4412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-19 21:33:03.072  INFO 4412 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-19 21:33:03.077  INFO 4412 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-19 21:33:03.078  INFO 4412 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1567 ms
+2020-07-19 21:33:03.513  INFO 4412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:33:03.624  INFO 4412 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-19 21:33:04.072  INFO 4412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-19 21:33:04.116  INFO 4412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-19 21:33:04.131  INFO 4412 --- [restartedMain] cl.jrios.BibliotecaApplication           : Started BibliotecaApplication in 3.05 seconds (JVM running for 4.064)
+2020-07-19 21:33:11.918  INFO 4412 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-19 21:33:11.919  INFO 4412 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-19 21:33:11.921  INFO 4412 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-07-19 21:33:14.498  INFO 4412 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=2, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:33:14.499  INFO 4412 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=3, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1990]
+2020-07-19 21:33:14.499  INFO 4412 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=4, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:33:14.513  INFO 4412 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=2, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:33:14.513  INFO 4412 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=3, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1990]
+2020-07-19 21:33:14.513  INFO 4412 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=4, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:33:21.076  INFO 4412 --- [http-nio-8080-exec-2] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=3, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1990]
+2020-07-19 21:33:21.222  INFO 4412 --- [http-nio-8080-exec-10] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=2, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:33:21.222  INFO 4412 --- [http-nio-8080-exec-10] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=4, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:33:21.225  INFO 4412 --- [http-nio-8080-exec-10] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=2, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:33:21.225  INFO 4412 --- [http-nio-8080-exec-10] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=4, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:34:03.138  INFO 4412 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:34:03.420  INFO 4412 --- [restartedMain] cl.jrios.BibliotecaApplication           : Starting BibliotecaApplication using Java 1.8.0_251 on NI5B23 with PID 4412 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca)
+2020-07-19 21:34:03.420  INFO 4412 --- [restartedMain] cl.jrios.BibliotecaApplication           : No active profile set, falling back to default profiles: default
+2020-07-19 21:34:03.752  INFO 4412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-19 21:34:03.753  INFO 4412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-19 21:34:03.753  INFO 4412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-19 21:34:03.831  INFO 4412 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-19 21:34:03.832  INFO 4412 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-19 21:34:03.833  INFO 4412 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 409 ms
+2020-07-19 21:34:03.945  INFO 4412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:34:03.962  INFO 4412 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-19 21:34:04.177  INFO 4412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-19 21:34:04.192  INFO 4412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-19 21:34:04.196  INFO 4412 --- [restartedMain] cl.jrios.BibliotecaApplication           : Started BibliotecaApplication in 0.85 seconds (JVM running for 64.129)
+2020-07-19 21:34:04.198  INFO 4412 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-19 21:34:07.171  INFO 4412 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-19 21:34:07.452  INFO 4412 --- [RMI TCP Connection(5)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:34:13.903  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : Starting BibliotecaApplication using Java 1.8.0_251 on NI5B23 with PID 11888 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca)
+2020-07-19 21:34:13.906  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : No active profile set, falling back to default profiles: default
+2020-07-19 21:34:13.967  INFO 11888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-19 21:34:13.967  INFO 11888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-19 21:34:15.129  INFO 11888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-19 21:34:15.145  INFO 11888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-19 21:34:15.145  INFO 11888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-19 21:34:15.413  INFO 11888 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-19 21:34:15.418  INFO 11888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-19 21:34:15.418  INFO 11888 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1450 ms
+2020-07-19 21:34:15.828  INFO 11888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:34:15.934  INFO 11888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-19 21:34:16.339  INFO 11888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-19 21:34:16.393  INFO 11888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-19 21:34:16.403  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : Started BibliotecaApplication in 2.859 seconds (JVM running for 3.927)
+2020-07-19 21:34:30.347  INFO 11888 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-19 21:34:30.347  INFO 11888 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-19 21:34:30.348  INFO 11888 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2020-07-19 21:34:30.508  INFO 11888 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=2, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:34:30.508  INFO 11888 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=4, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:34:37.764  INFO 11888 --- [http-nio-8080-exec-2] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=2, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:34:37.764  INFO 11888 --- [http-nio-8080-exec-2] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=4, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:34:37.777  INFO 11888 --- [http-nio-8080-exec-2] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=2, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:34:37.777  INFO 11888 --- [http-nio-8080-exec-2] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=4, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:34:40.501  INFO 11888 --- [http-nio-8080-exec-2] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=4, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:34:40.732  INFO 11888 --- [http-nio-8080-exec-5] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=2, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:34:40.736  INFO 11888 --- [http-nio-8080-exec-5] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=2, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:34:44.153  INFO 11888 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=2, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:35:39.943  INFO 11888 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:35:39.943  INFO 11888 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1990]
+2020-07-19 21:35:39.943  INFO 11888 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:35:39.945  INFO 11888 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:35:39.946  INFO 11888 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1990]
+2020-07-19 21:35:39.946  INFO 11888 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:35:58.938  INFO 11888 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:35:59.153  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : Starting BibliotecaApplication using Java 1.8.0_251 on NI5B23 with PID 11888 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca)
+2020-07-19 21:35:59.154  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : No active profile set, falling back to default profiles: default
+2020-07-19 21:35:59.488  INFO 11888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-19 21:35:59.489  INFO 11888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-19 21:35:59.489  INFO 11888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-19 21:35:59.584  INFO 11888 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-19 21:35:59.587  INFO 11888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-19 21:35:59.588  INFO 11888 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 430 ms
+2020-07-19 21:35:59.861  INFO 11888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:35:59.899  INFO 11888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-19 21:36:00.157  INFO 11888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-19 21:36:00.171  INFO 11888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-19 21:36:00.224  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : Started BibliotecaApplication in 1.101 seconds (JVM running for 107.748)
+2020-07-19 21:36:00.230  INFO 11888 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-19 21:37:41.488  INFO 11888 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:37:41.696  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : Starting BibliotecaApplication using Java 1.8.0_251 on NI5B23 with PID 11888 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca)
+2020-07-19 21:37:41.699  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : No active profile set, falling back to default profiles: default
+2020-07-19 21:37:42.004  INFO 11888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-19 21:37:42.004  INFO 11888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-19 21:37:42.004  INFO 11888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-19 21:37:42.063  INFO 11888 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-19 21:37:42.065  INFO 11888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-19 21:37:42.065  INFO 11888 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 361 ms
+2020-07-19 21:37:42.173  INFO 11888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:37:42.198  INFO 11888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-19 21:37:42.409  INFO 11888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-19 21:37:42.423  INFO 11888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-19 21:37:42.428  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : Started BibliotecaApplication in 0.77 seconds (JVM running for 209.952)
+2020-07-19 21:37:42.430  INFO 11888 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-19 21:39:07.366  INFO 11888 --- [Thread-15] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:39:07.573  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : Starting BibliotecaApplication using Java 1.8.0_251 on NI5B23 with PID 11888 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca)
+2020-07-19 21:39:07.574  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : No active profile set, falling back to default profiles: default
+2020-07-19 21:39:07.858  INFO 11888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-19 21:39:07.858  INFO 11888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-19 21:39:07.858  INFO 11888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-19 21:39:07.913  INFO 11888 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-19 21:39:07.915  INFO 11888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-19 21:39:07.915  INFO 11888 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 339 ms
+2020-07-19 21:39:08.011  INFO 11888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:39:08.026  INFO 11888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-19 21:39:08.235  INFO 11888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-19 21:39:08.249  INFO 11888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-19 21:39:08.252  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : Started BibliotecaApplication in 0.708 seconds (JVM running for 295.776)
+2020-07-19 21:39:08.253  INFO 11888 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-19 21:47:13.886  INFO 11888 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:47:14.048  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : Starting BibliotecaApplication using Java 1.8.0_251 on NI5B23 with PID 11888 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca)
+2020-07-19 21:47:14.049  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : No active profile set, falling back to default profiles: default
+2020-07-19 21:47:14.348  INFO 11888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-19 21:47:14.349  INFO 11888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-19 21:47:14.350  INFO 11888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-19 21:47:14.421  INFO 11888 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-19 21:47:14.423  INFO 11888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-19 21:47:14.423  INFO 11888 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 371 ms
+2020-07-19 21:47:14.545  INFO 11888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:47:14.561  INFO 11888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-19 21:47:14.734  INFO 11888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-19 21:47:14.748  INFO 11888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-19 21:47:14.753  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : Started BibliotecaApplication in 0.735 seconds (JVM running for 782.277)
+2020-07-19 21:47:14.754  INFO 11888 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-19 21:47:17.895  INFO 11888 --- [Thread-25] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:47:18.008  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : Starting BibliotecaApplication using Java 1.8.0_251 on NI5B23 with PID 11888 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca)
+2020-07-19 21:47:18.009  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : No active profile set, falling back to default profiles: default
+2020-07-19 21:47:18.286  INFO 11888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-19 21:47:18.286  INFO 11888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-19 21:47:18.287  INFO 11888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-19 21:47:18.335  INFO 11888 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-19 21:47:18.337  INFO 11888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-19 21:47:18.337  INFO 11888 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 325 ms
+2020-07-19 21:47:18.424  INFO 11888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:47:18.443  INFO 11888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-19 21:47:18.630  INFO 11888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-19 21:47:18.640  INFO 11888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-19 21:47:18.643  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : Started BibliotecaApplication in 0.664 seconds (JVM running for 786.167)
+2020-07-19 21:47:18.644  INFO 11888 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-19 21:47:44.079  INFO 11888 --- [Thread-30] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:47:44.268  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : Starting BibliotecaApplication using Java 1.8.0_251 on NI5B23 with PID 11888 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca)
+2020-07-19 21:47:44.268  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : No active profile set, falling back to default profiles: default
+2020-07-19 21:47:44.542  INFO 11888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-19 21:47:44.543  INFO 11888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-19 21:47:44.543  INFO 11888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-19 21:47:44.589  INFO 11888 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-19 21:47:44.590  INFO 11888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-19 21:47:44.590  INFO 11888 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 318 ms
+2020-07-19 21:47:44.674  INFO 11888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:47:44.688  INFO 11888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-19 21:47:44.870  INFO 11888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-19 21:47:44.883  INFO 11888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-19 21:47:44.888  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : Started BibliotecaApplication in 0.648 seconds (JVM running for 812.413)
+2020-07-19 21:47:44.890  INFO 11888 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-19 21:47:53.302  INFO 11888 --- [Thread-35] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:47:53.437  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : Starting BibliotecaApplication using Java 1.8.0_251 on NI5B23 with PID 11888 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca)
+2020-07-19 21:47:53.438  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : No active profile set, falling back to default profiles: default
+2020-07-19 21:47:53.891  INFO 11888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-19 21:47:53.892  INFO 11888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-19 21:47:53.892  INFO 11888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-19 21:47:53.965  INFO 11888 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-19 21:47:53.968  INFO 11888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-19 21:47:53.968  INFO 11888 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 527 ms
+2020-07-19 21:47:54.074  INFO 11888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:47:54.113  INFO 11888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-19 21:47:54.349  INFO 11888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-19 21:47:54.368  INFO 11888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-19 21:47:54.375  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : Started BibliotecaApplication in 0.974 seconds (JVM running for 821.899)
+2020-07-19 21:47:54.377  INFO 11888 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-19 21:49:24.145  INFO 11888 --- [Thread-40] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:49:24.336  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : Starting BibliotecaApplication using Java 1.8.0_251 on NI5B23 with PID 11888 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca)
+2020-07-19 21:49:24.336  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : No active profile set, falling back to default profiles: default
+2020-07-19 21:49:24.608  INFO 11888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-19 21:49:24.609  INFO 11888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-19 21:49:24.609  INFO 11888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-19 21:49:24.655  INFO 11888 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-19 21:49:24.656  INFO 11888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-19 21:49:24.656  INFO 11888 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 318 ms
+2020-07-19 21:49:24.747  INFO 11888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:49:24.792  INFO 11888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-19 21:49:24.995  INFO 11888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-19 21:49:25.007  INFO 11888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-19 21:49:25.012  INFO 11888 --- [restartedMain] cl.jrios.BibliotecaApplication           : Started BibliotecaApplication in 0.705 seconds (JVM running for 912.536)
+2020-07-19 21:49:25.013  INFO 11888 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-19 21:56:31.845  INFO 11888 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-19 21:56:31.847  INFO 11888 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-19 21:56:31.848  INFO 11888 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-07-19 21:56:31.860  INFO 11888 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:56:31.860  INFO 11888 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1990]
+2020-07-19 21:56:31.860  INFO 11888 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:56:31.863  INFO 11888 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:56:31.863  INFO 11888 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1990]
+2020-07-19 21:56:31.863  INFO 11888 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:56:34.949  INFO 11888 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:56:35.152 ERROR 11888 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[localhost].[/].[jsp]        : Servlet.service() for servlet [jsp] threw exception
+
+javax.el.MethodNotFoundException: Method not found: class cl.jrios.model.dto.LibroDto.getlibro()
+	at javax.el.Util.findWrapper(Util.java:371) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at javax.el.Util.findMethod(Util.java:217) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at javax.el.BeanELResolver.invoke(BeanELResolver.java:150) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at org.apache.jasper.el.JasperELResolver.invoke(JasperELResolver.java:163) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:159) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:190) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:701) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.jsp.WEB_002dINF.actualizar_jsp._jspx_meth_c_005fout_005f2(actualizar_jsp.java:322) ~[na:na]
+	at org.apache.jsp.WEB_002dINF.actualizar_jsp._jspService(actualizar_jsp.java:179) ~[na:na]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1395) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1140) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1079) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_251]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_251]
+
+2020-07-19 21:56:35.155 ERROR 11888 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [An exception occurred processing [/WEB-INF/actualizar.jsp] at line [45]
+
+42: 									<div class="form-group">
+43: 										<input class="form-control" type="text" id="titulo"
+44: 											name="titulo" placeholder="titulo del libro"
+45: 											value="<c:out value='${libroVo.getlibro().getTitulo() }' />">
+46: 									</div>
+47: 								</div>
+48: 
+
+
+Stacktrace:] with root cause
+
+javax.el.MethodNotFoundException: Method not found: class cl.jrios.model.dto.LibroDto.getlibro()
+	at javax.el.Util.findWrapper(Util.java:371) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at javax.el.Util.findMethod(Util.java:217) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at javax.el.BeanELResolver.invoke(BeanELResolver.java:150) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at org.apache.jasper.el.JasperELResolver.invoke(JasperELResolver.java:163) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:159) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:190) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:701) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.jsp.WEB_002dINF.actualizar_jsp._jspx_meth_c_005fout_005f2(actualizar_jsp.java:322) ~[na:na]
+	at org.apache.jsp.WEB_002dINF.actualizar_jsp._jspService(actualizar_jsp.java:179) ~[na:na]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1395) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1140) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1079) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_251]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_251]
+
+2020-07-19 21:57:39.393  INFO 11888 --- [http-nio-8080-exec-2] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:57:39.394  INFO 11888 --- [http-nio-8080-exec-2] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1990]
+2020-07-19 21:57:39.394  INFO 11888 --- [http-nio-8080-exec-2] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:57:39.397  INFO 11888 --- [http-nio-8080-exec-2] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:57:39.397  INFO 11888 --- [http-nio-8080-exec-2] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1990]
+2020-07-19 21:57:39.397  INFO 11888 --- [http-nio-8080-exec-2] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:57:41.251  INFO 11888 --- [http-nio-8080-exec-6] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:57:41.354 ERROR 11888 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[localhost].[/].[jsp]        : Servlet.service() for servlet [jsp] threw exception
+
+javax.el.MethodNotFoundException: Method not found: class cl.jrios.model.entity.LibroEntity.getAnioPub()
+	at javax.el.Util.findWrapper(Util.java:371) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at javax.el.Util.findMethod(Util.java:217) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at javax.el.BeanELResolver.invoke(BeanELResolver.java:150) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at org.apache.jasper.el.JasperELResolver.invoke(JasperELResolver.java:163) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:159) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:190) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:701) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.jsp.WEB_002dINF.actualizar_jsp._jspx_meth_c_005fout_005f5(actualizar_jsp.java:394) ~[na:na]
+	at org.apache.jsp.WEB_002dINF.actualizar_jsp._jspService(actualizar_jsp.java:213) ~[na:na]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1395) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1140) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1079) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_251]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_251]
+
+2020-07-19 21:57:41.356 ERROR 11888 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [An exception occurred processing [/WEB-INF/actualizar.jsp] at line [70]
+
+67: 									<div class="form-group">
+68: 										<input class="form-control" type="text" id="anio_pub"
+69: 											name="anio_pub" placeholder="Año de publicacion del libro"
+70: 											value="<c:out value='${libroVo.getLibro().getAnioPub() }' />">
+71: 									</div>
+72: 								</div>
+73: 
+
+
+Stacktrace:] with root cause
+
+javax.el.MethodNotFoundException: Method not found: class cl.jrios.model.entity.LibroEntity.getAnioPub()
+	at javax.el.Util.findWrapper(Util.java:371) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at javax.el.Util.findMethod(Util.java:217) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at javax.el.BeanELResolver.invoke(BeanELResolver.java:150) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at org.apache.jasper.el.JasperELResolver.invoke(JasperELResolver.java:163) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:159) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:190) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:701) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.jsp.WEB_002dINF.actualizar_jsp._jspx_meth_c_005fout_005f5(actualizar_jsp.java:394) ~[na:na]
+	at org.apache.jsp.WEB_002dINF.actualizar_jsp._jspService(actualizar_jsp.java:213) ~[na:na]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1395) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1140) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1079) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_251]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_251]
+
+2020-07-19 21:57:50.975  INFO 11888 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-19 21:57:51.252  INFO 11888 --- [RMI TCP Connection(4)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:58:05.521  INFO 1996 --- [restartedMain] cl.jrios.BibliotecaApplication           : Starting BibliotecaApplication using Java 1.8.0_251 on NI5B23 with PID 1996 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca)
+2020-07-19 21:58:05.524  INFO 1996 --- [restartedMain] cl.jrios.BibliotecaApplication           : No active profile set, falling back to default profiles: default
+2020-07-19 21:58:05.575  INFO 1996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-19 21:58:05.576  INFO 1996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-19 21:58:06.956  INFO 1996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-19 21:58:06.967  INFO 1996 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-19 21:58:06.968  INFO 1996 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-19 21:58:07.247  INFO 1996 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-19 21:58:07.252  INFO 1996 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-19 21:58:07.252  INFO 1996 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1676 ms
+2020-07-19 21:58:07.732  INFO 1996 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-19 21:58:07.839  INFO 1996 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-19 21:58:08.275  INFO 1996 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-19 21:58:08.319  INFO 1996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-19 21:58:08.329  INFO 1996 --- [restartedMain] cl.jrios.BibliotecaApplication           : Started BibliotecaApplication in 3.173 seconds (JVM running for 4.187)
+2020-07-19 21:58:09.562  INFO 1996 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-19 21:58:09.564  INFO 1996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-19 21:58:09.566  INFO 1996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-07-19 21:58:12.359  INFO 1996 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:58:12.359  INFO 1996 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1990]
+2020-07-19 21:58:12.360  INFO 1996 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:58:12.376  INFO 1996 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:58:12.377  INFO 1996 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1990]
+2020-07-19 21:58:12.377  INFO 1996 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:58:15.573  INFO 1996 --- [http-nio-8080-exec-5] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1990]
+2020-07-19 21:58:15.800 ERROR 1996 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[localhost].[/].[jsp]        : Servlet.service() for servlet [jsp] threw exception
+
+javax.el.MethodNotFoundException: Method not found: class cl.jrios.model.entity.LibroEntity.getAnioPub()
+	at javax.el.Util.findWrapper(Util.java:371) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at javax.el.Util.findMethod(Util.java:217) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at javax.el.BeanELResolver.invoke(BeanELResolver.java:150) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at org.apache.jasper.el.JasperELResolver.invoke(JasperELResolver.java:163) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:159) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:190) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:701) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.jsp.WEB_002dINF.actualizar_jsp._jspx_meth_c_005fout_005f5(actualizar_jsp.java:394) ~[na:na]
+	at org.apache.jsp.WEB_002dINF.actualizar_jsp._jspService(actualizar_jsp.java:213) ~[na:na]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1395) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1140) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1079) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_251]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_251]
+
+2020-07-19 21:58:15.804 ERROR 1996 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [An exception occurred processing [/WEB-INF/actualizar.jsp] at line [70]
+
+67: 									<div class="form-group">
+68: 										<input class="form-control" type="text" id="anio_pub"
+69: 											name="anio_pub" placeholder="Año de publicacion del libro"
+70: 											value="<c:out value='${libroVo.getLibro().getAnioPub() }' />">
+71: 									</div>
+72: 								</div>
+73: 
+
+
+Stacktrace:] with root cause
+
+javax.el.MethodNotFoundException: Method not found: class cl.jrios.model.entity.LibroEntity.getAnioPub()
+	at javax.el.Util.findWrapper(Util.java:371) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at javax.el.Util.findMethod(Util.java:217) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at javax.el.BeanELResolver.invoke(BeanELResolver.java:150) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at org.apache.jasper.el.JasperELResolver.invoke(JasperELResolver.java:163) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:159) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:190) ~[tomcat-embed-el-9.0.36.jar:9.0.36]
+	at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:701) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.jsp.WEB_002dINF.actualizar_jsp._jspx_meth_c_005fout_005f5(actualizar_jsp.java:394) ~[na:na]
+	at org.apache.jsp.WEB_002dINF.actualizar_jsp._jspService(actualizar_jsp.java:213) ~[na:na]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329) ~[tomcat-embed-jasper-9.0.36.jar:9.0.36]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1395) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1140) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1079) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_251]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_251]
+
+2020-07-19 21:59:07.587  INFO 1996 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:59:07.588  INFO 1996 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1990]
+2020-07-19 21:59:07.589  INFO 1996 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:59:07.591  INFO 1996 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:59:07.591  INFO 1996 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1990]
+2020-07-19 21:59:07.591  INFO 1996 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:59:09.358  INFO 1996 --- [http-nio-8080-exec-2] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1990]
+2020-07-19 21:59:21.590  INFO 1996 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:59:21.590  INFO 1996 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 21:59:21.590  INFO 1996 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 21:59:21.592  INFO 1996 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 21:59:21.593  INFO 1996 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 21:59:21.593  INFO 1996 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:02:35.485  INFO 1996 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:02:35.485  INFO 1996 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:02:35.485  INFO 1996 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:02:35.489  INFO 1996 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:02:35.490  INFO 1996 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:02:35.490  INFO 1996 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:05:41.326  INFO 1996 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:05:41.327  INFO 1996 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:05:41.328  INFO 1996 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:05:41.330  INFO 1996 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:05:41.330  INFO 1996 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:05:41.330  INFO 1996 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:05:43.067  INFO 1996 --- [http-nio-8080-exec-4] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:05:43.070  INFO 1996 --- [http-nio-8080-exec-4] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:05:43.070  INFO 1996 --- [http-nio-8080-exec-4] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:05:43.073  INFO 1996 --- [http-nio-8080-exec-4] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:05:43.074  INFO 1996 --- [http-nio-8080-exec-4] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:05:43.074  INFO 1996 --- [http-nio-8080-exec-4] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:05:44.233  INFO 1996 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:05:44.234  INFO 1996 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:05:44.234  INFO 1996 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:05:44.236  INFO 1996 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:05:44.236  INFO 1996 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:05:44.236  INFO 1996 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:05:45.577  INFO 1996 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:05:45.578  INFO 1996 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:05:45.578  INFO 1996 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:05:45.581  INFO 1996 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:05:45.581  INFO 1996 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:05:45.581  INFO 1996 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:05:46.794  INFO 1996 --- [http-nio-8080-exec-2] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:05:46.794  INFO 1996 --- [http-nio-8080-exec-2] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:05:46.795  INFO 1996 --- [http-nio-8080-exec-2] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:05:46.797  INFO 1996 --- [http-nio-8080-exec-2] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:05:46.797  INFO 1996 --- [http-nio-8080-exec-2] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:05:46.797  INFO 1996 --- [http-nio-8080-exec-2] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:05:53.513  INFO 1996 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:05:53.514  INFO 1996 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:05:53.515  INFO 1996 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:05:53.517  INFO 1996 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:05:53.517  INFO 1996 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:05:53.517  INFO 1996 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:07:22.472  INFO 1996 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-19 22:07:22.812  INFO 1996 --- [RMI TCP Connection(4)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-19 22:07:31.864  INFO 7468 --- [restartedMain] cl.jrios.BibliotecaApplication           : Starting BibliotecaApplication using Java 1.8.0_251 on NI5B23 with PID 7468 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca)
+2020-07-19 22:07:31.867  INFO 7468 --- [restartedMain] cl.jrios.BibliotecaApplication           : No active profile set, falling back to default profiles: default
+2020-07-19 22:07:31.911  INFO 7468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-19 22:07:31.912  INFO 7468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-19 22:07:33.437  INFO 7468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-19 22:07:33.450  INFO 7468 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-19 22:07:33.451  INFO 7468 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-19 22:07:33.791  INFO 7468 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-19 22:07:33.796  INFO 7468 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-19 22:07:33.796  INFO 7468 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1884 ms
+2020-07-19 22:07:34.365  INFO 7468 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-19 22:07:34.487  INFO 7468 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-19 22:07:35.010  INFO 7468 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-19 22:07:35.056  INFO 7468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-19 22:07:35.069  INFO 7468 --- [restartedMain] cl.jrios.BibliotecaApplication           : Started BibliotecaApplication in 3.565 seconds (JVM running for 4.569)
+2020-07-19 22:07:39.271  INFO 7468 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-19 22:07:39.272  INFO 7468 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-19 22:07:39.273  INFO 7468 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-07-19 22:07:41.686  INFO 7468 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:07:41.686  INFO 7468 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:07:41.686  INFO 7468 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:07:41.700  INFO 7468 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:07:41.700  INFO 7468 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:07:41.700  INFO 7468 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:07:54.057 ERROR 7468 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [ insert  into libro (titulo, autor, imprenta, anio_pub)  values (?, ?, ?, ?, ?)]; SQL state [null]; error code [1]; [SQLITE_ERROR] SQL error or missing database (5 values for 4 columns); nested exception is org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (5 values for 4 columns)] with root cause
+
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (5 values for 4 columns)
+	at org.sqlite.core.DB.newSQLException(DB.java:1010) ~[sqlite-jdbc-3.32.3.jar:na]
+	at org.sqlite.core.DB.newSQLException(DB.java:1022) ~[sqlite-jdbc-3.32.3.jar:na]
+	at org.sqlite.core.DB.throwex(DB.java:987) ~[sqlite-jdbc-3.32.3.jar:na]
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method) ~[sqlite-jdbc-3.32.3.jar:na]
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134) ~[sqlite-jdbc-3.32.3.jar:na]
+	at org.sqlite.core.DB.prepare(DB.java:264) ~[sqlite-jdbc-3.32.3.jar:na]
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45) ~[sqlite-jdbc-3.32.3.jar:na]
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30) ~[sqlite-jdbc-3.32.3.jar:na]
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:19) ~[sqlite-jdbc-3.32.3.jar:na]
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35) ~[sqlite-jdbc-3.32.3.jar:na]
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241) ~[sqlite-jdbc-3.32.3.jar:na]
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205) ~[sqlite-jdbc-3.32.3.jar:na]
+	at org.springframework.jdbc.core.JdbcTemplate$SimplePreparedStatementCreator.createPreparedStatement(JdbcTemplate.java:1644) ~[spring-jdbc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:648) ~[spring-jdbc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:959) ~[spring-jdbc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1014) ~[spring-jdbc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1024) ~[spring-jdbc-5.3.0-M1.jar:5.3.0-M1]
+	at cl.jrios.model.dao.LibroDaoImpl.add(LibroDaoImpl.java:89) ~[classes/:na]
+	at cl.jrios.model.dao.LibroDaoImpl$$FastClassBySpringCGLIB$$9d915bf.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771) ~[spring-aop-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:140) ~[spring-tx-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691) ~[spring-aop-5.3.0-M1.jar:5.3.0-M1]
+	at cl.jrios.model.dao.LibroDaoImpl$$EnhancerBySpringCGLIB$$97b2bfa0.add(<generated>) ~[classes/:na]
+	at cl.jrios.service.LibroServiceImpl.registrarLibro(LibroServiceImpl.java:29) ~[classes/:na]
+	at cl.jrios.controller.LibroController.registrar(LibroController.java:69) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:890) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:804) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1062) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.0-M1.jar:5.3.0-M1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.0-M1.jar:5.3.0-M1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_251]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_251]
+
+2020-07-19 22:12:18.487  INFO 7468 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-19 22:12:18.678  INFO 7468 --- [restartedMain] cl.jrios.BibliotecaApplication           : Starting BibliotecaApplication using Java 1.8.0_251 on NI5B23 with PID 7468 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca)
+2020-07-19 22:12:18.678  INFO 7468 --- [restartedMain] cl.jrios.BibliotecaApplication           : No active profile set, falling back to default profiles: default
+2020-07-19 22:12:19.059  INFO 7468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-19 22:12:19.060  INFO 7468 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-19 22:12:19.060  INFO 7468 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-19 22:12:19.165  INFO 7468 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-19 22:12:19.176  INFO 7468 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-19 22:12:19.177  INFO 7468 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 495 ms
+2020-07-19 22:12:19.276  INFO 7468 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-19 22:12:19.293  INFO 7468 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-19 22:12:19.455  INFO 7468 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-19 22:12:19.468  INFO 7468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-19 22:12:19.472  INFO 7468 --- [restartedMain] cl.jrios.BibliotecaApplication           : Started BibliotecaApplication in 0.83 seconds (JVM running for 288.972)
+2020-07-19 22:12:19.474  INFO 7468 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-19 22:12:22.734  INFO 7468 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-19 22:12:22.740  INFO 7468 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-19 22:12:22.742  INFO 7468 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-07-19 22:12:29.079  INFO 7468 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:12:29.079  INFO 7468 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:12:29.080  INFO 7468 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:12:29.080  INFO 7468 --- [http-nio-8080-exec-7] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=8, titulo=crimen y castigo, autor=Dostoievsky, imprenta=Boreau, anio_pub=1932]
+2020-07-19 22:12:34.135  INFO 7468 --- [http-nio-8080-exec-6] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:12:34.135  INFO 7468 --- [http-nio-8080-exec-6] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:12:34.135  INFO 7468 --- [http-nio-8080-exec-6] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:12:34.135  INFO 7468 --- [http-nio-8080-exec-6] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=8, titulo=crimen y castigo, autor=Dostoievsky, imprenta=Boreau, anio_pub=1932]
+2020-07-19 22:12:34.138  INFO 7468 --- [http-nio-8080-exec-6] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:12:34.140  INFO 7468 --- [http-nio-8080-exec-6] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:12:34.140  INFO 7468 --- [http-nio-8080-exec-6] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:12:34.140  INFO 7468 --- [http-nio-8080-exec-6] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=8, titulo=crimen y castigo, autor=Dostoievsky, imprenta=Boreau, anio_pub=1932]
+2020-07-19 22:14:25.415  INFO 7468 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-19 22:14:25.605  INFO 7468 --- [restartedMain] cl.jrios.BibliotecaApplication           : Starting BibliotecaApplication using Java 1.8.0_251 on NI5B23 with PID 7468 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\biblioteca)
+2020-07-19 22:14:25.605  INFO 7468 --- [restartedMain] cl.jrios.BibliotecaApplication           : No active profile set, falling back to default profiles: default
+2020-07-19 22:14:25.873  INFO 7468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-19 22:14:25.874  INFO 7468 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-19 22:14:25.874  INFO 7468 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-19 22:14:25.931  INFO 7468 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-19 22:14:25.933  INFO 7468 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-19 22:14:25.933  INFO 7468 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 325 ms
+2020-07-19 22:14:26.019  INFO 7468 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-19 22:14:26.036  INFO 7468 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-19 22:14:26.191  INFO 7468 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-19 22:14:26.201  INFO 7468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-19 22:14:26.204  INFO 7468 --- [restartedMain] cl.jrios.BibliotecaApplication           : Started BibliotecaApplication in 0.632 seconds (JVM running for 415.703)
+2020-07-19 22:14:26.206  INFO 7468 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-19 22:14:35.185  INFO 7468 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-19 22:14:35.186  INFO 7468 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-19 22:14:35.188  INFO 7468 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-07-19 22:14:36.655  INFO 7468 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:14:36.655  INFO 7468 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:14:36.655  INFO 7468 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:14:36.655  INFO 7468 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=8, titulo=crimen y castigo, autor=Dostoievsky, imprenta=Boreau, anio_pub=1932]
+2020-07-19 22:14:36.655  INFO 7468 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=9, titulo=Wherthrt, autor=Goethe, imprenta=Clasica, anio_pub=2000]
+2020-07-19 22:14:36.657  INFO 7468 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:14:36.657  INFO 7468 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:14:36.658  INFO 7468 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:14:36.658  INFO 7468 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=8, titulo=crimen y castigo, autor=Dostoievsky, imprenta=Boreau, anio_pub=1932]
+2020-07-19 22:14:36.658  INFO 7468 --- [http-nio-8080-exec-9] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=9, titulo=Wherthrt, autor=Goethe, imprenta=Clasica, anio_pub=2000]
+2020-07-19 22:14:42.387  INFO 7468 --- [http-nio-8080-exec-3] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=9, titulo=Wherthrt, autor=Goethe, imprenta=Clasica, anio_pub=2000]
+2020-07-19 22:14:51.528  INFO 7468 --- [http-nio-8080-exec-4] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:14:51.529  INFO 7468 --- [http-nio-8080-exec-4] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:14:51.530  INFO 7468 --- [http-nio-8080-exec-4] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:14:51.531  INFO 7468 --- [http-nio-8080-exec-4] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=8, titulo=crimen y castigo, autor=Dostoievsky, imprenta=Boreau, anio_pub=1932]
+2020-07-19 22:14:51.532  INFO 7468 --- [http-nio-8080-exec-4] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=9, titulo=Wherther, autor=Goethe, imprenta=Clasica, anio_pub=2000]
+2020-07-19 22:14:51.535  INFO 7468 --- [http-nio-8080-exec-4] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:14:51.535  INFO 7468 --- [http-nio-8080-exec-4] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:14:51.535  INFO 7468 --- [http-nio-8080-exec-4] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:14:51.535  INFO 7468 --- [http-nio-8080-exec-4] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=8, titulo=crimen y castigo, autor=Dostoievsky, imprenta=Boreau, anio_pub=1932]
+2020-07-19 22:14:51.536  INFO 7468 --- [http-nio-8080-exec-4] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=9, titulo=Wherther, autor=Goethe, imprenta=Clasica, anio_pub=2000]
+2020-07-19 22:14:59.389  INFO 7468 --- [http-nio-8080-exec-1] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=8, titulo=crimen y castigo, autor=Dostoievsky, imprenta=Boreau, anio_pub=1932]
+2020-07-19 22:14:59.518  INFO 7468 --- [http-nio-8080-exec-10] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:14:59.519  INFO 7468 --- [http-nio-8080-exec-10] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:14:59.519  INFO 7468 --- [http-nio-8080-exec-10] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:14:59.520  INFO 7468 --- [http-nio-8080-exec-10] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=9, titulo=Wherther, autor=Goethe, imprenta=Clasica, anio_pub=2000]
+2020-07-19 22:14:59.524  INFO 7468 --- [http-nio-8080-exec-10] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:14:59.525  INFO 7468 --- [http-nio-8080-exec-10] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:14:59.525  INFO 7468 --- [http-nio-8080-exec-10] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:14:59.525  INFO 7468 --- [http-nio-8080-exec-10] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=9, titulo=Wherther, autor=Goethe, imprenta=Clasica, anio_pub=2000]
+2020-07-19 22:15:19.808  INFO 7468 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:15:19.808  INFO 7468 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:15:19.808  INFO 7468 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:15:19.808  INFO 7468 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=9, titulo=Wherther, autor=Goethe, imprenta=Clasica, anio_pub=2000]
+2020-07-19 22:15:19.808  INFO 7468 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=10, titulo=crimen y castigo, autor=Dostoievsky, imprenta=Boreau, anio_pub=1932]
+2020-07-19 22:15:19.812  INFO 7468 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=5, titulo=dracula, autor=stoker, imprenta=la tercera, anio_pub=1900]
+2020-07-19 22:15:19.812  INFO 7468 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=6, titulo=Cronicas Marcianas, autor=Bradburray, imprenta=Alfahuara, anio_pub=1991]
+2020-07-19 22:15:19.812  INFO 7468 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=7, titulo=El jugador, autor=Dostoiesvky, imprenta=Bureau, anio_pub=1910]
+2020-07-19 22:15:19.812  INFO 7468 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=9, titulo=Wherther, autor=Goethe, imprenta=Clasica, anio_pub=2000]
+2020-07-19 22:15:19.812  INFO 7468 --- [http-nio-8080-exec-8] cl.jrios.model.dao.mapper.LibroMapper    : Se ejecuta el mapRow con libro: LibroEntity [id=10, titulo=crimen y castigo, autor=Dostoievsky, imprenta=Boreau, anio_pub=1932]
+2020-07-19 22:17:02.215  INFO 7468 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-19 22:17:02.460  INFO 7468 --- [RMI TCP Connection(4)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

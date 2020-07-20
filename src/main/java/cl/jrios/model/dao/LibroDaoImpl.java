@@ -83,8 +83,7 @@ public class LibroDaoImpl implements ILibroDao {
 
 	@Override
 	public int add(LibroEntity libro) {
-		String consulta = "" + " insert " + " into libro (titulo, autor, imprenta, anio_pub) "
-				+ " values (?, ?, ?, ?, ?)";
+		String consulta = "insert into libro (titulo, autor, imprenta, anio_pub) values (?, ?, ?, ?)";
 
 		return jdbcTemplate.update(consulta, libro.getTitulo(), libro.getAutor(), libro.getImprenta(),
 				libro.getAnio_pub());
